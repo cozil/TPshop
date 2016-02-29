@@ -1,0 +1,60 @@
+[ 2015-11-24T17:35:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002744s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.097185s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id = 0 )  [ RunTime:0.000492s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.055101s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.024374s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.001059s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.001448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031872s ]
+
+[ 2015-11-24T19:46:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000900s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.023673s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id = 0 )  [ RunTime:0.000345s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000237s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.016995s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.017762s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000703s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002607s ]
+

@@ -1,0 +1,30 @@
+[ 2015-12-02T06:32:19+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.080870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032666s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:1.543120s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id = 0 )  [ RunTime:0.346532s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000275s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:1.546913s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.114070s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000786s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.022128s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.022299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.071203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.071351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.329892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.330081s ]
+

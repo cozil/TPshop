@@ -1,0 +1,18 @@
+[ 2015-03-19T17:29:01+08:00 ] 127.0.0.1 /index.php/Home/Cart/order2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+
+[ 2015-03-19T17:29:12+08:00 ] 127.0.0.1 /index.php/Home/Cart/order2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+

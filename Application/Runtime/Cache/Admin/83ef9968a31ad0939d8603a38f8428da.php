@@ -1,0 +1,56 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link href=" " rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src=" "></script>
+	<title>商品属性添加</title>
+</head>
+<body>
+	<h1>商品属性添加</h1>
+	<hr />
+	<form action="/admin.php/Admin/Attribute/add.html" method="POST" enctype="multipart/form-data">
+		<p>
+		属性名称：<input type="text" name="attr_name" value=""  id=""/>
+		</p>
+		商品类型选择：<select name="type_id" id="">
+			<option value="">请选择</option>
+			<?php foreach ($typeData as $k => $v): ?>
+				<option value="<?php echo $v['id'] ;?>"  <?php if($typeId == $v['id']) echo "selected='selected'"?> ><?php echo $v['type_name'];?></option>
+			<?php endforeach ?>
+			
+		</select>
+
+		<p>
+			属性类型：<input type="radio" name="attr_type" value="0"  id=""/>唯一
+				       <input type="radio" name="attr_type" value="1"  id=""/>单选
+		</p>
+		<p>
+			属性值录入方式：<input type="radio" name="attr_input_type" value="0"  id="manual"/>手工输入
+					      <input type="radio" name="attr_input_type" value="1"  id="lst"/>列表选择
+		</p>
+		<p>
+			可选值列表(多个使用逗号隔开)：<br/><textarea name="goods_attr_value" id="container" cols="30" rows="10" disabled="disabled"></textarea>
+		</p>
+		<p>
+			<input type="submit" value="提交" />
+		</p>	
+	</form>
+</body>
+<script type="text/javascript" src="/Public/Js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+	// 更改可选值列表
+	$("input[name=attr_input_type]").click(function(event) {
+		// 获取当前点击对象的value
+		var _val = $(this).val();
+		// 如果值是1 就是单选 列表选择
+		if(_val == 1){
+			$("#container").attr('disabled', false);
+		}else{
+			$("#container").val('').attr('disabled', true);
+
+		}
+	});
+
+</script>
+</html>

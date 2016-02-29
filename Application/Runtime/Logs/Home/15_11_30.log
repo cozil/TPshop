@@ -1,0 +1,15 @@
+[ 2015-11-30T23:57:29+00:00 ] 127.0.0.1 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+NOTIC: [2048] Redefining already defined constructor for class base D:\wamp\www.12.com\uc_client\model\base.php 第 39 行.
+NOTIC: [2048] Redefining already defined constructor for class usercontrol D:\wamp\www.12.com\uc_client\control\user.php 第 26 行.
+NOTIC: [2048] Redefining already defined constructor for class cachemodel D:\wamp\www.12.com\uc_client\model\cache.php 第 30 行.
+NOTIC: [2048] Redefining already defined constructor for class appmodel D:\wamp\www.12.com\uc_client\model\app.php 第 21 行.
+NOTIC: [2] unserialize() expects parameter 1 to be string, array given D:\wamp\www.12.com\uc_client\model\cache.php 第 89 行.
+NOTIC: [2048] Redefining already defined constructor for class usermodel D:\wamp\www.12.com\uc_client\model\user.php 第 21 行.
+

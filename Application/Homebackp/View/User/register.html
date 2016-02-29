@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="YONGDA商城" />
+        <meta name="Description" content="YONGDA商城" />
+        <title>YONGDA商城 - Powered by YongDa</title>
+
+        <link href="__PUBLIC__/Home/css/style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/Js/validate_zh_cn.js"></script>
+        <style>
+            label.error{
+                background: #DDD;
+                border: 2px solid red;
+                margin-left: 2px;
+                padding: 4px;
+            }
+            a {
+                text-decoration: none;
+                border: 1px solid gray;
+                padding: 4px;
+                margin-left: 4px;
+            }
+        </style>
+    </head>
+    
+    <body class="index_body"  style="overflow-x:hidden;">
+        <div class="block clearfix" style="position: relative; height: 98px;">
+            <a href="#" name="top"><img class="logo" src="__PUBLIC__/Home/images/logo.gif"></a>
+
+            <div id="topNav" class="clearfix">
+                <div style="float: left;"> 
+                    <font id="ECS_MEMBERZONE">
+
+                        <div id="append_parent"></div>
+                        欢迎光临本店&nbsp;
+                        <a href="./index.php?r=user/login"> 登录</a>
+                        <a href="./index.php?r=user/register">注册</a>
+                    </font>
+                </div>
+                <div style="float: right;">
+
+                    <a href="#">查看购物车</a>
+                    |
+                    <a href="#">选购中心</a>
+                    |
+                    <a href="#">标签云</a>
+                    |
+                    <a href="#">报价单</a>
+                </div>
+
+            </div>
+            <div id="mainNav" class="clearfix">
+                <a href="#" >首页<span></span></a>
+                <a href="#">GSM手机<span></span></a>
+                <a href="#">双模手机<span></span></a>
+                <a href="#">手机配件<span></span></a>
+                <a href="#">优惠活动<span></span></a>
+
+                <a href="#">留言板<span></span></a>
+            </div>
+        </div>
+
+        <div class="header_bg" style="height:20px;">
+            <div style="float: left; font-size: 14px; color:white; padding-left: 15px;"></div>  
+        </div>
+        <div class="blank5"></div>
+        <div class="block block1">  
+            <div class="block box">
+                <div class="blank"></div>
+                <div id="ur_here">
+                    当前位置: <a href="/" target="_blank">首页</a> <code>&gt;</code> 用户注册 
+                </div>
+            </div>
+            <div class="blank"></div>
+
+            <!--放入view具体内容-->
+            <div class="block box">
+                <div class="usBox">
+                    <div class="usBox_2 clearfix">
+                        <div class=""><img src="__PUBLIC__/Home/images/user_tit3.gif" alt="" /></div>
+
+                            <form id="register_form" name="myform" action="<?php echo U('User/register')?>" method="POST">              
+
+                                    <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
+                                            <tbody>
+                                                <!-- 用户名 -->
+                                                <tr>
+                                                    <td style="width:13%; text-align: right;"><label for="username" class="required">用户名 <span class="required">*</span></label>
+                                                    </td>
+                                                    <td style="width:87%;">
+                                                        <input class="inputBg" size="25" name="user_name" id="username" type="text" value=""  placeholder=' username'/>                  
+                                                    </td>
+                                                </tr>
+                                                 <!-- 邮箱 -->
+                                                <tr>
+                                                    <td align="right"><label for="email">邮箱</label><span class="required"> *</span></label></td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="email" id="email" type="text" value="" placeholder=' gogery@163.com' />    
+                                                    </td>
+                                                </tr>
+                                                <!-- 手机号码 -->
+                                                <tr>
+                                                    <td align="right">
+                                                        <label for="iphone" class="required">手机号码 <span class="required">*</span></label>
+                                                    </td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="iphone" id="phone" type="text" value="" /><a href="javascript:;" id="getCode">获取验证码</a>        
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td align="right">
+                                                        <label for="code" class="required">手机验证码 <span class="required">*</span></label>
+                                                    </td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="code" id="code" type="text" value="" />       
+                                                    </td>
+                                                </tr>
+
+
+                                                <!-- 密码 -->
+                                                <tr>
+                                                    <td align="right">
+                                                        <label for="psd" class="required">密码 <span class="required">*</span></label>
+                                                    </td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="psd" id="psd" type="password" value="" />         
+                                                    </td>
+                                                </tr>
+                                                <!-- 密码确认 -->
+                                                <tr>
+                                                    <td align="right"><label for="psd2">密码确认</label> <span class="required">*</span></td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="psd2" id="psd2" type="password" />
+                                                    </td>
+
+                                                </tr>
+                                                <!-- 提交 -->
+                                                <tr>
+                                                    <td>&nbsp;</td>
+                                                    <td align="left">
+                                                            <!-- <input  value="" class="us_Submit_reg" type="submit" /> -->
+                                                            <img src="__PUBLIC__/Home/images/bnt_ur_reg.gif" alt="提交" id="sub" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                    </table>
+                            </form>
+
+                        </div>
+                </div>
+            </div>
+            <!--放入view具体内容-->
+
+        </div>
+
+        <div class="blank"></div>
+        <div id="bottomNav" class="box block">
+            <div class="bNavList clearfix">
+                <a href="#">免责条款</a>
+                |
+                <a href="#">隐私保护</a>
+                |
+                <a href="#">咨询热点</a>
+                |
+                <a href="#">联系我们</a>
+
+                |
+                <a href="#">Powered&nbsp;by&nbsp;<strong><span style="color: rgb(51, 102, 255);">YongDa</span></strong></a>
+                |
+                <a href="#">批发方案</a>
+                |
+                <a href="#">配送方式</a>
+
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="text">
+                © 2005-2015 YONGDA 版权所有，并保留所有权利。<br />
+            </div>
+        </div>
+
+    </body>
+    <script type="text/javascript">
+
+    /**
+ * 验证电话号码，带"(,),-"字符和数字其他不通过
+ * 
+ * @param str
+ * @returns {Boolean}
+ */
+function checkPhone(str) {
+    if (str.length > 20) {
+        return false;
+    }
+    var patternStr = "(0123456789-)";
+    var strlength = str.length;
+    for (var i = 0; i < strlength; i++) {
+        var tempchar = str.substring(i, i + 1);
+        if (patternStr.indexOf(tempchar) < 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+
+jQuery.validator.addMethod("isIphone", function(str, element) {
+     if (str.length > 20) {
+        return false;
+    }
+    var patternStr = "(0123456789-)";
+    var strlength = str.length;
+    for (var i = 0; i < strlength; i++) {
+        var tempchar = str.substring(i, i + 1);
+        if (patternStr.indexOf(tempchar) < 0) {
+            return false;
+        }
+    }
+    return true;
+   
+    // return this.optional(element) || (tel.test(value));
+}, "请输入正确的手机号码");
+
+
+    // 用户注册验证
+    $('#register_form').validate({
+        rules:{
+            user_name:{
+                required:true,
+                rangelength:[2,10],
+            },
+            email:{
+                required:true,
+                email:true,
+            },
+            iphone:{
+                isIphone:true,
+            },
+            code:{
+                required:true,
+            },
+            psd:{
+                required:true,
+                rangelength:[6,10],
+            },
+            psd2:{
+                required:true,
+                equalTo:"#psd",
+            }
+        }
+
+    })
+
+
+
+    //  提交表单
+    $("#sub").click(function(event) {
+        $("form[name=myform]").submit();
+    });
+
+    $("#getCode").click(function(event) {
+        
+        var _iphone = $("#phone").val();
+        $.ajax({
+            
+                url: 'http://local.13.com/message/SendTemplateSMS.php',
+                type: 'POST',
+                dataType: 'JSON',
+                data:{'iphone':_iphone},
+                error:function(data){
+                    console.log(data);
+                },
+                success:function(json){
+        
+                    console.log(json);
+        
+                }
+            });
+
+
+    });
+</script>
+</html>

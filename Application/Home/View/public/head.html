@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="YONGDA商城" />
+        <meta name="Description" content="YONGDA商城" />
+        
+        <title>YONGDA商城 - Powered by YongDa</title>
+        
+        <link href="__PUBLIC__/Home/css/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="__PUBLIC__/Home/css/magiczoomplus.css" />
+        
+         <style type="text/css">
+            table {border:1px solid #dddddd; border-collapse: collapse; width:99%; margin:auto;}
+            td {border:1px solid #dddddd;}
+            #consignee_addr {width:450px;}
+        </style>
+        
+    </head>
+    <body class="index_body">
+        <div class="block clearfix" style="position: relative; height: 98px;">
+            <a href="#" name="top"><img class="logo" src="__PUBLIC__/Home/images/logo.gif"></a>
+
+            <div id="topNav" class="clearfix">
+                <div style="float: left;"> 
+                    <font id="ECS_MEMBERZONE">
+                        <div id="append_parent"></div>
+                        欢迎光临本店&nbsp;
+                        <?php if(!empty($_SESSION['user_id'])) echo $_SESSION['user_name'] . "&nbsp; &nbsp;<a href='".U('User/logout')."'>退出</a>" ; else echo "<a href='".U('User/login')."'>登录</a>&nbsp;&nbsp;<a href='".U('User/register')."'>注册</a>";?>
+                    </font>
+                </div>
+                <div style="float: right;">
+                    <a href="<?php echo U('Cart/cartList');?>">查看购物车</a>
+                    |
+                    <a href="__APP__">选购中心</a>
+                    |
+                    <a href="#">标签云</a>
+                    |
+                    <a href="#">报价单</a>
+                </div>
+            </div>
+            <div id="mainNav" class="clearfix">
+                <a href="__APP__" class="cur">首页<span></span></a>
+               <?php foreach ($navData as $k => $v): ?>
+                    <a href="<?php echo U('Index/category', array('cate_id'=>$v['id']), false);?>"><?php echo $v['cate_name'];?><span></span></a>
+               <?php endforeach ?>
+
+                
+            </div>
+        </div>
+
+        <div class="header_bg">
+            <div style="float: left; font-size: 14px; color:white; padding-left: 15px;">
+            </div>  
+
+            <form id="searchForm" method="get" action="#">
+                <input name="keywords" id="keyword" type="text" />
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('./images/sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
+
+            </form>
+        </div>

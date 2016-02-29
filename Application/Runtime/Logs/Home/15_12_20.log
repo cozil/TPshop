@@ -1,0 +1,1113 @@
+[ 2015-12-20T00:42:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.082519s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id = 0 )  [ RunTime:0.000229s ]
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `it_category` WHERE ( parent_id = 0 ) 
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Admin\Model\CategoryModel.class.php 第 32 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.059584s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000243s ]
+ERR: 1054:Unknown column 'is_best' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3  
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000196s ]
+ERR: 1054:Unknown column 'is_hot' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3  
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000187s ]
+ERR: 1054:Unknown column 'is_new' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 54 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 193 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003028s ]
+
+[ 2015-12-20T11:17:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.082686s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000508s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000385s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.041023s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000342s ]
+ERR: 1054:Unknown column 'is_best' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3  
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000279s ]
+ERR: 1054:Unknown column 'is_hot' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3  
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000288s ]
+ERR: 1054:Unknown column 'is_new' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 193 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.196030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.033813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.153164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.153310s ]
+
+[ 2015-12-20T11:43:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003564s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000353s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000292s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004830s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000526s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000463s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 221 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 246 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 246 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2015-12-20T11:50:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003672s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000255s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.003888s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000528s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000569s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2015-12-20T11:52:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003321s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000260s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.003865s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000432s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000413s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2015-12-20T11:52:23+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003505s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000319s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000275s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.003663s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000463s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000431s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2015-12-20T11:52:24+08:00 ] 127.0.0.1 /index.php/Home/Index/category/cate_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002936s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.002990s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000305s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000242s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000235s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004560s ]
+SQL: SELECT * FROM `it_goods` WHERE ( cat_id in (3,1) and is_delete = 0  ) LIMIT 4   [ RunTime:0.000433s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000360s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 123 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004295s ]
+
+[ 2015-12-20T11:52:25+08:00 ] 127.0.0.1 /index.php/Home/Index/category/cate_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003117s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000460s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000223s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.003589s ]
+SQL: SELECT * FROM `it_goods` WHERE ( cat_id in (4,2) and is_delete = 0  ) LIMIT 4   [ RunTime:0.000419s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000364s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 123 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005465s ]
+
+[ 2015-12-20T11:52:26+08:00 ] 127.0.0.1 /index.php/Home/Index/category/cate_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.005822s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000395s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000378s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.007350s ]
+SQL: SELECT * FROM `it_goods` WHERE ( cat_id in (6,8,5) and is_delete = 0  ) LIMIT 4   [ RunTime:0.000847s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000930s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000396s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 123 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017803s ]
+
+[ 2015-12-20T11:52:27+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003056s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000242s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.003575s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000432s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000382s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2015-12-20T11:52:28+08:00 ] 127.0.0.1 /index.php/Home/Index/category/cate_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003283s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000366s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000348s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.003892s ]
+SQL: SELECT * FROM `it_goods` WHERE ( cat_id in (6,8,5) and is_delete = 0  ) LIMIT 4   [ RunTime:0.000669s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000563s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 89 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 123 行.
+NOTIC: [8] Undefined index: img_sam D:\wamp\www.12.com\Application\Runtime\Cache\Home\d9c3fe725e8a3807a83c0451c141ea99.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2015-12-20T11:52:35+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www.12.com\ThinkPHP\Common\functions.php 第 1190 行.
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.003234s ]
+SQL: SELECT * FROM `it_category` WHERE ( pid = 0 )  [ RunTime:0.000340s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with that of Think\Model::_after_insert() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_update() should be compatible with that of Think\Model::_after_update() D:\wamp\www.12.com\Application\Admin\Model\GoodsModel.class.php 第 229 行.
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.004467s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000432s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000711s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new = 1 AND is_delete = 0 AND is_sale = 1 ) LIMIT 3   [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 82 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Undefined index: parent_id D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www.12.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+

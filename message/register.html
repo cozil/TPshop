@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link href=" " rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src=" "></script>
+	<title>短信验证</title>
+</head>
+<body>
+	<h1>短信验证</h1>
+	<hr />
+	<form action="register.php" method="POST" enctype="multipart/form-data">
+		
+		<p>
+			用户名：<input type="text" name="user_name" value=""  id=""/>
+		</p>
+		<p>
+			密码：<input type="password" name="psd" value=""  id=""/>
+		</p>
+		<p>
+			邮箱：<input type="text" name="email" value=""  id=""/>
+		</p>
+		
+		<p>
+			手机号：<input type="text" name="iphone" value=""  id="iphone"/><a href="javascript:;" id="get_code">获取免费验证码</a>
+		</p>
+		<p>
+			手机验证码：<input type="text" name="code" value=""  id=""/>
+		</p>
+		<p>
+			<input type="submit" value="提交" />
+		</p>
+	</form>
+</body>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+	$("#get_code").click(function(event) {
+		// 利用ajax发送手机号码到后台获取验证码
+		var _iphone = $("#iphone").val();
+
+		$.ajax({
+			
+			url: 'SendTemplateSMS.php',
+			type: 'POST',
+			dataType: 'JSON',
+			data:{'iphone':_iphone},
+			error:function(data){
+				console.log(data);
+			},
+			success:function(json){
+				
+				if(json['sign'] == 1){
+					alert('短信发送成功');
+					return false;
+				}else{
+					alert('短信发送失败');
+					return false;
+				}
+				// console.log(json);
+	
+			}
+		});
+	});	
+
+</script>
+</html>

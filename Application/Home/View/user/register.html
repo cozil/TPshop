@@ -1,0 +1,182 @@
+<include file="public/head"/>
+        <div class="blank5"></div>
+        <div class="block block1">  
+            <div class="block box">
+                <div class="blank"></div>
+                <div id="ur_here">
+                    当前位置: <a href="/" target="_blank">首页</a> <code>&gt;</code> 用户注册 
+                </div>
+            </div>
+            <div class="blank"></div>
+
+            <!--放入view具体内容-->
+            <div class="block box">
+                <div class="usBox">
+                    <div class="usBox_2 clearfix">
+                        <div class=""><img src="__PUBLIC__/Home/images/user_tit3.gif" alt="" /></div>
+
+                            <form id="yw0" name="myform" action="__SELF__" method="POST">              
+
+                                    <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
+                                            <tbody>
+                                                <!-- 用户名 -->
+                                                <tr>
+                                                    <td style="width:13%; text-align: right;"><label for="username" class="required">用户名 <span class="required">*</span></label>
+                                                    </td>
+                                                    <td style="width:87%;">
+                                                        <input class="inputBg" size="25" name="username" id="username" type="text" value=""  placeholder=' username'/>                  
+                                                    </td>
+                                                </tr>
+                                                 <!-- 邮箱 -->
+                                                <tr>
+                                                    <td align="right"><label for="email">邮箱</label><span class="required"> *</span></label></td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="email" id="email" type="text" value="" placeholder=' gogery@163.com' />    
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td align="right"><label for="email">手机号</label><span class="required"> *</span></label></td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="iphone" id="iphone" type="text" value=""  />
+                                                        <input type="button" value=" 点击获取免费验证码" id="getCode">
+                                                    </td>
+                                                </tr>
+
+                                                 <tr>
+                                                    <td align="right"><label for="email">手机验证码</label><span class="required"> *</span></label></td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="code" id="code" type="text" value=""  />
+                                                        
+                                                    </td>
+                                                </tr>
+
+
+
+                                                <!-- 密码 -->
+                                                <tr>
+                                                    <td align="right">
+                                                        <label for="psd" class="required">密码 <span class="required">*</span></label>
+                                                    </td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="password" id="psd" type="password" value="" />         
+                                                    </td>
+                                                </tr>
+                                                <!-- 密码确认 -->
+                                                <tr>
+                                                    <td align="right"><label for="psd2">密码确认</label> <span class="required">*</span></td>
+                                                    <td>
+                                                        <input class="inputBg" size="25" name="psd2" id="psd2" type="password" />
+                                                    </td>
+
+                                                </tr>
+                                                <!-- 提交 -->
+                                                <tr>
+                                                    <td>&nbsp;</td>
+                                                    <td align="left">
+                                                            <!-- <input  value="" class="us_Submit_reg" type="submit" /> -->
+                                                            <img src="__PUBLIC__/Home/images/bnt_ur_reg.gif" alt="提交" id="sub" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+                                    </table>
+                            </form>
+
+                        </div>
+                </div>
+            </div>
+            <!--放入view具体内容-->
+
+        </div>
+
+        <div class="blank"></div>
+        <div id="bottomNav" class="box block">
+            <div class="bNavList clearfix">
+                <a href="#">免责条款</a>
+                |
+                <a href="#">隐私保护</a>
+                |
+                <a href="#">咨询热点</a>
+                |
+                <a href="#">联系我们</a>
+
+                |
+                <a href="#">Powered&nbsp;by&nbsp;<strong><span style="color: rgb(51, 102, 255);">YongDa</span></strong></a>
+                |
+                <a href="#">批发方案</a>
+                |
+                <a href="#">配送方式</a>
+
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="text">
+                © 2005-2015 YONGDA 版权所有，并保留所有权利。<br />
+            </div>
+        </div>
+        <script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/validate_zh_cn.js"></script>
+    </body>
+    <script type="text/javascript">
+
+        //  表单验证
+        $("form[name=myform]").validate({
+        rules:{
+            username:{
+                required:true,
+                rangelength:[3,10],
+            },
+            email:{
+                required:true,
+                email:true,
+            },
+            password:{
+                required:true,
+                rangelength:[5,10]
+            },
+            psd2:{
+                required:true,
+                rangelength:[5,10],
+                equalTo:"#psd"
+            }
+            
+        }
+    });
+    //  提交表单
+    $("#sub").click(function(event) {
+        $("form[name=myform]").submit();
+    });
+
+    // 获取短信验证码
+    $("#getCode").click(function(event) {
+        var _iphone = $("#iphone").val();
+        $.ajax({
+            
+                url: '/message/SendTemplateSMS.php',
+                type: 'GET',
+                dataType: 'json',
+                data: {'iphone':_iphone},
+                error:function(data){
+                    console.log(data);
+                },
+                success:function(json){
+        
+                   if(json['sign'] == 1){
+                        alert('发送验证成功，请注意查收');
+                        return false;
+                   }else{
+                        alert(json['msg']);
+                        return false;
+                   }
+        
+                }
+            });
+    });
+</script>
+</html>
